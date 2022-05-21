@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "dist/mat-ar",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/mat-ar/index.html"
+        "destination": "/index.html"
       }
     ]
   }
